@@ -1,0 +1,106 @@
+var friendsArray = [
+    {
+        "name":"Monica",
+        "photo":"https://vignette.wikia.nocookie.net/friends/images/c/c2/Monica-Gellar.jpg/revision/latest?cb=20130802071243",
+        "scores":[
+           5,
+           3,
+           1,
+           3,
+           2,
+           3,
+           5,
+           5,
+           5,
+           3
+          ]
+      },
+
+      {
+        "name":"Rachel",
+        "photo":"https://vignette.wikia.nocookie.net/friends/images/5/58/Rachel_Green.jpg/revision/latest?cb=20120624152620",
+        "scores":[
+            3,
+            1,
+            1,
+            3,
+            2,
+            5,
+            2,
+            1,
+            5,
+            1
+          ]
+      },
+
+      {
+        "name":"Phoebe",
+        "photo":"https://vignette.wikia.nocookie.net/friends/images/e/e8/Phoebe_Buffay_1.jpg/revision/latest/scale-to-width-down/314?cb=20160529170821",
+        "scores":[
+            3,
+            1,
+            2,
+            1,
+            5,
+            3,
+            1,
+            3,
+            4,
+            3
+          ]
+      },
+
+      {
+        "name":"Ross",
+        "photo":"https://vignette.wikia.nocookie.net/atcentralperk/images/7/78/Ross.jpg/revision/latest/scale-to-width-down/262?cb=20130913075029",
+        "scores":[
+            4,
+            3,
+            5,
+            4,
+            4,
+            2,
+            5,
+            1,
+            3,
+            5
+          ]
+      },
+
+      {
+        "name":"Joey",
+        "photo":"https://vignette.wikia.nocookie.net/villains/images/4/48/Joey-tribbiani-1.jpg/revision/latest?cb=20151106195847",
+        "scores":[
+            1,
+            5,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            5,
+            3
+          ]
+      },
+
+      {
+        "name":"Chandler",
+        "photo":"https://vignette.wikia.nocookie.net/friends/images/5/5e/Chandler5.jpg/revision/latest?cb=20160217004629",
+        "scores":[
+            2,
+            4,
+            1,
+            5,
+            3,
+            2,
+            3,
+            1,
+            3,
+            3
+          ]
+      }
+      
+];
+
+module.exports = friendsArray;
