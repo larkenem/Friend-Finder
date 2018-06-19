@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-
+var path = require("path");
 var app = express();
 
 var PORT = process.env.PORT || 3000;
@@ -17,8 +17,8 @@ app.use(express.static('./app/public'));
 
 
 //points out server to these "routes"
-//require("./app/routing/apiRoutes")(app);
-require("./app/routing/htmlRoutes")(app);
+require(path.join(__dirname, "./app/routing/apiRoutes"))(app);
+require(path.join(__dirname, "./app/routing/htmlRoutes"))(app);
 
 
 //listening -- starts server
